@@ -1,4 +1,4 @@
-
+package Singleton;
 public class Logger {
 
     // Single instance of Logger

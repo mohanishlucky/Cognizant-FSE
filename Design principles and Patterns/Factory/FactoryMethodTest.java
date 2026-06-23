@@ -1,3 +1,4 @@
+package Factory;
 
 interface Document {
 
