@@ -3,7 +3,7 @@ interface Document {
 
     void open();
 }
-// Concrete Product
+// Concrete Product 
 class WordDocument implements Document {
 
     public void open() {
