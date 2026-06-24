@@ -1,0 +1,35 @@
+1. Understanding Asymptotic Notation
+
+What is Big O Notation?
+
+Big O notation is used to measure the efficiency of an algorithm. It describes how the execution time or memory usage grows as the input size increases.
+
+Big O helps developers:
+
+Compare different algorithms.
+Predict performance for large datasets.
+Choose the most efficient solution.
+
+Some common Big O complexities are:
+
+Complexity	Meaning
+O(1)	Constant Time
+O(log n)	Logarithmic Time
+O(n)	Linear Time
+O(n²)	Quadratic Time
+Best, Average, and Worst Case Scenarios
+Linear Search
+
+Linear search checks each element one by one until the target is found.
+
+Best Case: Element found at first position → O(1)
+Average Case: Element found in middle → O(n)
+Worst Case: Element found at last position or not found → O(n)
+Binary Search
+
+Binary search repeatedly divides the sorted array into two halves.
+
+Best Case: Element found at middle position → O(1)
+Average Case: O(log n)
+Worst Case: O(log n)
+
